@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    position: absolute;
+    left: -400px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    width: 330px;
+    z-index: 10;
+  }
+  header.active {
+    left: 0;
+  }
+  .side-nav-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .side-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .portfolio .list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .portfolio .list .item {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about .details {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about .details .image {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .portfolio .list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .portfolio .list .item {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about .details .image {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .portfolio .list .item {
+    height: 200px;
+  }
+  .side-content .banner .content .name {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .side-content .banner .content p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/swiper.min.css" />
     <!-- fontawesome -->
     <link
@@ -53,372 +54,408 @@
         </div>
 
         <ul class="links">
-          <a href="#banner"
+          <a class="banner-section hello" href="#banner"
             ><li><i class="fas fa-home active"></i> Home</li></a
           >
-          <a href="#about">
+          <a class="about-section hello" href="#about">
             <li><i class="fas fa-user"></i>About</li></a
           >
-          <a href="#skills">
+          <a class="skills-section hello" href="#skills">
             <li><i class="fas fa-server"></i>Skills</li></a
           >
-          <a href="#portfolio">
+          <a class="portfolio-section hello" href="#portfolio">
             <li><i class="fas fa-portrait"></i>Portfolio</li></a
           >
-          <a href="#testimonials">
+          <a class="testimonials-section hello" href="#testimonials">
             <li><i class="fas fa-envelope"></i> Testimonials</li></a
-          >
-          <a href="#contact">
-            <li><i class="fas fa-envelope"></i> Contact</li></a
           >
         </ul>
       </div>
+      <div class="footer">© Copyright 2021</div>
     </header>
 
-    <div class="side-content">
-      <div
-        class="banner"
-        id="banner"
-        style="background-image: url(./images/banner.jpeg)"
-      >
-        <div class="content">
-          <div class="name">Anurag Shamsher Rana</div>
-          <p class="desc">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
-            expedita pariatur sapiente quae laboriosam, ducimus, incidunt quo
-            porro fugit nulla voluptatibus totam exercitationem dolores suscipit
-            cupiditate. Fuga reiciendis accusantium vel?expedita pariatur
-            sapiente quae laboriosam, ducimus, incidunt quo porro fugit nulla
-            voluptatibus totam exercitationem dolores suscipit cupiditate. Fuga
-            reiciendis accusantium vel?
-          </p>
-        </div>
-      </div>
+    <div class="side-nav-btn">
+      <div class="fas fa-bars"></div>
+    </div>
 
-      <!-- about-start -->
-      <div class="about" id="about">
-        <div class="wrapper">
-          <div class="title">
-            <h2>About</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
-              animi voluptate delectus odit ex atque saepe laborum. Illum,
-              consectetur tenetur perferendis hic eum magnam quasi accusamus
-              natus, numquam, excepturi sunt.
+    <div class="side-content">
+      <section id="banner-section">
+        <div
+          class="banner"
+          id="banner"
+          style="background-image: url(./images/banner.jpeg)"
+        >
+          <div class="content">
+            <div class="name">Anurag Shamsher Rana</div>
+            <p class="desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
+              expedita pariatur sapiente quae laboriosam, ducimus, incidunt quo
+              porro fugit nulla voluptatibus totam exercitationem dolores
+              suscipit cupiditate. Fuga reiciendis accusantium vel?expedita
+              pariatur sapiente quae laboriosam, ducimus, incidunt quo porro
+              fugit nulla voluptatibus totam exercitationem dolores suscipit
+              cupiditate. Fuga reiciendis accusantium vel?
             </p>
           </div>
+        </div>
+      </section>
 
-          <div class="details">
-            <div
-              class="image"
-              style="background-image: url(./images/pexels-photo-2829793.jpeg)"
-            ></div>
-            <div class="info">
-              <h2>UI/UX Designer & Web Developer.</h2>
+      <!-- about-start -->
+      <section id="about-section">
+        <div class="about" id="about">
+          <div class="wrapper">
+            <div class="title">
+              <h2>About</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati laboriosam delectus ipsum optio tempora, ipsa ducimus
-                dolore temporibus reprehenderit iste corporis officia possimus
-                quidem non provident atque molestiae debitis sapiente. dolore
-                temporibus reprehenderit iste corporis officia possimus quidem
-                non provident atque molestiae debitis sapiente.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                animi voluptate delectus odit ex atque saepe laborum. Illum,
+                consectetur tenetur perferendis hic eum magnam quasi accusamus
+                natus, numquam, excepturi sunt.
               </p>
+            </div>
 
-              <ul>
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <strong>Name: </strong> Anurag
-                </li>
+            <div class="details">
+              <div
+                class="image"
+                style="
+                  background-image: url(./images/pexels-photo-2829793.jpeg);
+                "
+              ></div>
+              <div class="info">
+                <h2>UI/UX Designer & Web Developer.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati laboriosam delectus ipsum optio tempora, ipsa
+                  ducimus dolore temporibus reprehenderit iste corporis officia
+                  possimus quidem non provident atque molestiae debitis
+                  sapiente. dolore temporibus reprehenderit iste corporis
+                  officia possimus quidem non provident atque molestiae debitis
+                  sapiente.
+                </p>
 
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <strong>Age: </strong> 30
-                </li>
+                <ul>
+                  <li>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Name: </strong> Anurag
+                  </li>
 
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <strong>Degree: </strong> Master
-                </li>
+                  <li>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Age: </strong> 30
+                  </li>
 
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <strong>Phone: </strong> +977-9876236462
-                </li>
+                  <li>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Degree: </strong> Master
+                  </li>
 
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <strong>Address: </strong> Shreepur, Birgunj, Nepal
-                </li>
+                  <li>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Phone: </strong> +977-9876236462
+                  </li>
 
-                <li>
-                  <i class="fas fa-chevron-right"></i>
-                  <strong>Birthday: </strong> 6 Dec 1993
-                </li>
-              </ul>
+                  <li>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Address: </strong> Shreepur, Birgunj, Nepal
+                  </li>
+
+                  <li>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Birthday: </strong> 6 Dec 1993
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- about-end -->
 
       <!-- skills-start -->
-      <div class="skills" id="skills">
-        <div class="wrapper">
-          <div class="title">
-            <h2>Skills</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
-              animi voluptate delectus odit ex atque saepe laborum. Illum,
-              consectetur tenetur perferendis hic eum magnam quasi accusamus
-              natus, numquam, excepturi sunt.
-            </p>
+      <section id="skills-section">
+        <div class="skills" id="skills">
+          <div class="wrapper">
+            <div class="title">
+              <h2>Skills</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                animi voluptate delectus odit ex atque saepe laborum. Illum,
+                consectetur tenetur perferendis hic eum magnam quasi accusamus
+                natus, numquam, excepturi sunt.
+              </p>
+            </div>
+
+            <ul>
+              <li>
+                <label for="">HTML <span>80%</span></label>
+                <div class="skill-bar">
+                  <div class="skill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li>
+                <label for="">CSS <span>90%</span></label>
+                <div class="skill-bar">
+                  <div class="skill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li>
+                <label for="">JavaScript <span>60%</span></label>
+                <div class="skill-bar">
+                  <div class="skill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li>
+                <label for="">Python <span>30%</span></label>
+                <div class="skill-bar">
+                  <div class="skill" style="width: 30%"></div>
+                </div>
+              </li>
+
+              <li>
+                <label for="">Django <span>20%</span></label>
+                <div class="skill-bar">
+                  <div class="skill" style="width: 20%"></div>
+                </div>
+              </li>
+            </ul>
           </div>
-
-          <ul>
-            <li>
-              <label for="">HTML <span>100%</span></label>
-              <input type="range" />
-            </li>
-
-            <li>
-              <label for="">CSS <span>100%</span></label>
-              <input type="range" />
-            </li>
-
-            <li>
-              <label for="">JavaScript <span>100%</span></label>
-              <input type="range" />
-            </li>
-
-            <li>
-              <label for="">Python <span>100%</span></label>
-              <input type="range" />
-            </li>
-
-            <li>
-              <label for="">Django <span>100%</span></label>
-              <input type="range" />
-            </li>
-          </ul>
         </div>
-      </div>
+      </section>
       <!-- skills-end -->
 
       <!-- Portfolio-start -->
-      <div class="portfolio" id="portfolio">
-        <div class="wrapper">
-          <div class="title">
-            <h2>Portfolio</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
-              animi voluptate delectus odit ex atque saepe laborum. Illum,
-              consectetur
-            </p>
-          </div>
-
-          <ul>
-            <li class="active" data-filters="all">ALL</li>
-            <li data-filters="dataApp">APP</li>
-            <li data-filters="dataWeb">WEB</li>
-          </ul>
-
-          <div class="list">
-            <div class="item imageBox dataWeb">
-              <div
-                class="image"
-                style="background-image: url(./images/p1.jpeg)"
-              ></div>
+      <section id="portfolio-section">
+        <div class="portfolio" id="portfolio">
+          <div class="wrapper">
+            <div class="title">
+              <h2>Portfolio</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                animi voluptate delectus odit ex atque saepe laborum. Illum,
+                consectetur
+              </p>
             </div>
 
-            <div class="item imageBox dataWeb">
-              <div
-                class="image"
-                style="background-image: url(./images/p2.jpeg)"
-              ></div>
-            </div>
+            <ul>
+              <li class="active" data-filters="all">ALL</li>
+              <li data-filters="dataApp">APP</li>
+              <li data-filters="dataWeb">WEB</li>
+            </ul>
 
-            <div class="item imageBox dataWeb">
-              <div
-                class="image"
-                style="background-image: url(./images/p3.jpeg)"
-              ></div>
-            </div>
+            <div class="list">
+              <div class="item imageBox dataWeb">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p1.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataWeb">
-              <div
-                class="image"
-                style="background-image: url(./images/p4.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataWeb">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p2.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataWeb">
-              <div
-                class="image"
-                style="background-image: url(./images/p5.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataWeb">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p3.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataWeb">
-              <div
-                class="image"
-                style="background-image: url(./images/p6.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataWeb">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p4.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataApp">
-              <div
-                class="image"
-                style="background-image: url(./images/p7.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataWeb">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p5.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataApp">
-              <div
-                class="image"
-                style="background-image: url(./images/p8.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataWeb">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p6.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataApp">
-              <div
-                class="image"
-                style="background-image: url(./images/p9.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataApp">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p7.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataApp">
-              <div
-                class="image"
-                style="background-image: url(./images/p10.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataApp">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p8.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataApp">
-              <div
-                class="image"
-                style="background-image: url(./images/p11.jpeg)"
-              ></div>
-            </div>
+              <div class="item imageBox dataApp">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p9.jpeg)"
+                ></div>
+              </div>
 
-            <div class="item imageBox dataApp">
-              <div
-                class="image"
-                style="background-image: url(./images/p12.jpeg)"
-              ></div>
+              <div class="item imageBox dataApp">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p10.jpeg)"
+                ></div>
+              </div>
+
+              <div class="item imageBox dataApp">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p11.jpeg)"
+                ></div>
+              </div>
+
+              <div class="item imageBox dataApp">
+                <div
+                  class="image"
+                  style="background-image: url(./images/p12.jpeg)"
+                ></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Portfolio-end -->
 
       <!-- Testimonials-start -->
-      <div class="testimonials" id="testimonials">
-        <div class="wrapper">
-          <div class="title">
-            <h2>Testimonials</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
-              animi voluptate delectus odit ex atque saepe laborum. Illum,
-              consectetur
-            </p>
-          </div>
+      <section id="testimonials-section">
+        <div class="testimonials" id="testimonials">
+          <div class="wrapper">
+            <div class="title">
+              <h2>Testimonials</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                animi voluptate delectus odit ex atque saepe laborum. Illum,
+                consectetur
+              </p>
+            </div>
 
-          <div class="list">
-            <div class="swiper-container mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="comment">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Est, facere quaerat? Eum, non consequatur libero ratione
-                      explicabo odit aliquam aliquid doloribus saepe nesciunt
-                      harum? Accusantium odit voluptas repellendus sunt
-                      suscipit!
-                    </p>
+            <div class="list">
+              <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est, facere quaerat? Eum, non consequatur libero ratione
+                        explicabo odit aliquam aliquid doloribus saepe nesciunt
+                        harum? Accusantium odit voluptas repellendus sunt
+                        suscipit!
+                      </p>
+                    </div>
+                    <div class="profile">
+                      <div
+                        class="image"
+                        style="
+                          background-image: url(./images/pexels-photo-2829793.jpeg);
+                        "
+                      ></div>
+                      <div class="name">Naruto</div>
+                    </div>
                   </div>
-                  <div class="profile">
-                    <div
-                      class="image"
-                      style="
-                        background-image: url(./images/pexels-photo-2829793.jpeg);
-                      "
-                    ></div>
-                    <div class="name">Naruto</div>
-                  </div>
-                </div>
 
-                <div class="swiper-slide">
-                  <div class="comment">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Est, facere quaerat? Eum, non consequatur libero ratione
-                      explicabo odit aliquam aliquid doloribus saepe nesciunt
-                      harum? Accusantium odit voluptas repellendus sunt
-                      suscipit!
-                    </p>
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est, facere quaerat? Eum, non consequatur libero ratione
+                        explicabo odit aliquam aliquid doloribus saepe nesciunt
+                        harum? Accusantium odit voluptas repellendus sunt
+                        suscipit!
+                      </p>
+                    </div>
+                    <div class="profile">
+                      <div
+                        class="image"
+                        style="
+                          background-image: url(./images/pexels-photo-2829793.jpeg);
+                        "
+                      ></div>
+                      <div class="name">Naruto</div>
+                    </div>
                   </div>
-                  <div class="profile">
-                    <div
-                      class="image"
-                      style="
-                        background-image: url(./images/pexels-photo-2829793.jpeg);
-                      "
-                    ></div>
-                    <div class="name">Naruto</div>
-                  </div>
-                </div>
 
-                <div class="swiper-slide">
-                  <div class="comment">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Est, facere quaerat? Eum, non consequatur libero ratione
-                      explicabo odit aliquam aliquid doloribus saepe nesciunt
-                      harum? Accusantium odit voluptas repellendus sunt
-                      suscipit!
-                    </p>
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est, facere quaerat? Eum, non consequatur libero ratione
+                        explicabo odit aliquam aliquid doloribus saepe nesciunt
+                        harum? Accusantium odit voluptas repellendus sunt
+                        suscipit!
+                      </p>
+                    </div>
+                    <div class="profile">
+                      <div
+                        class="image"
+                        style="
+                          background-image: url(./images/pexels-photo-2829793.jpeg);
+                        "
+                      ></div>
+                      <div class="name">Naruto</div>
+                    </div>
                   </div>
-                  <div class="profile">
-                    <div
-                      class="image"
-                      style="
-                        background-image: url(./images/pexels-photo-2829793.jpeg);
-                      "
-                    ></div>
-                    <div class="name">Naruto</div>
-                  </div>
-                </div>
 
-                <div class="swiper-slide">
-                  <div class="comment">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Est, facere quaerat? Eum, non consequatur libero ratione
-                      explicabo odit aliquam aliquid doloribus saepe nesciunt
-                      harum? Accusantium odit voluptas repellendus sunt
-                      suscipit!
-                    </p>
-                  </div>
-                  <div class="profile">
-                    <div
-                      class="image"
-                      style="
-                        background-image: url(./images/pexels-photo-2829793.jpeg);
-                      "
-                    ></div>
-                    <div class="name">Naruto</div>
+                  <div class="swiper-slide">
+                    <div class="comment">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Est, facere quaerat? Eum, non consequatur libero ratione
+                        explicabo odit aliquam aliquid doloribus saepe nesciunt
+                        harum? Accusantium odit voluptas repellendus sunt
+                        suscipit!
+                      </p>
+                    </div>
+                    <div class="profile">
+                      <div
+                        class="image"
+                        style="
+                          background-image: url(./images/pexels-photo-2829793.jpeg);
+                        "
+                      ></div>
+                      <div class="name">Naruto</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Testimonials-end -->
     </div>
 
-    <!-- scripts -->
     <script src="./js/swiper.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
+    <!-- scripts -->
+
+    <script>
+      const sideNavBtn = document.querySelector('.side-nav-btn');
+      const sideNav = document.querySelector('.side-nav');
+
+      sideNavBtn.addEventListener('click', () => {
+        sideNav.classList.toggle('active');
+      });
+    </script>
 
     <script>
       var swiper = new Swiper('.testimonials .mySwiper', {
