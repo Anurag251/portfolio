@@ -45,12 +45,8 @@ sideContainer.addEventListener('scroll', () => {
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    console.log(sideContainer.getBoundingClientRect().top);
 
-    if (
-      sideContainer.getBoundingClientRect().top >=
-      sectionTop - sectionHeight / 3
-    ) {
+    if (sideContainer.scrollTop >= sectionTop - sectionHeight / 3) {
       current = section.getAttribute('id');
     }
   });
